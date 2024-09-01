@@ -34,7 +34,9 @@ function CatImage() {
           />
         );
       })}
-      <button onClick={fetchApiCat}>Change image</button>
+      <button onClick={fetchApiCat} className={styles.btn}>
+        Load new image
+      </button>
     </div>
   );
 }

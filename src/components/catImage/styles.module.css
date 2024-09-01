@@ -16,3 +16,11 @@
   height: auto;
   max-width: 300px;
 }
+
+.btn {
+  background-color: #027bff;
+  color: white;
+  padding: 10px;
+  max-width: 150px;
+  border-radius: 10px;
+}
